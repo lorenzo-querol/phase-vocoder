@@ -7,11 +7,15 @@ The algorithm consists of three main steps: analysis, processing, and resynthesi
 
 Here's a block diagram to further illustrate the original phase vocoder algorithm:
 
-<img src="https://github.com/lorenzo-querol/phase-vocoder/blob/main/assets/block-diagram.png"  width="60%" height="30%">
+<p align="center">
+  <img src="assets/block-diagram.png"  width="60%" height="30%">
+</p>
 
-This implementation involves a little bit of music theory, thus is limited to the use of semitone values to determine the jump (or shift) in pitch.
+This implementation involves a little bit of music theory, thus is limited to the use of semitone values to determine the jump (or shift) in pitch. To be more specific, it is limited to using the 12-Tone Equal Temperament (12-TET) system, thus a the frequency distance between two notes is defined to be the 12th root of 2.
 
-<!-- <img src="https://github.com/lorenzo-querol/phase-vocoder/blob/main/assets/12-tet.png"  width="60%" height="30%">
+<p align="center">
+  <img src="assets/12-tet-illustration.png"  width="60%" height="30%">
+</p>
 
 *This was a final project developed in fulfillment of my Digital Signal Processing I course requirement in 2021.*
 
