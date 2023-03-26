@@ -9,6 +9,10 @@ Here's a block diagram to further illustrate the original phase vocoder algorith
 
 <img src="https://github.com/lorenzo-querol/phase-vocoder/blob/main/assets/block-diagram.png"  width="60%" height="30%">
 
+This implementation involves a little bit of music theory, thus is limited to the use of semitone values to determine the jump (or shift) in pitch.
+
+<img src="https://github.com/lorenzo-querol/phase-vocoder/blob/main/assets/12-tet.png"  width="60%" height="30%">
+
 *This was a final project developed in fulfillment of my Digital Signal Processing I course requirement in 2021.*
 
 ## Requirements
