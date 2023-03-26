@@ -17,7 +17,7 @@ This implementation involves a little bit of music theory, thus is limited to th
   <img src="assets/12-tet-illustration.png"  width="60%" height="30%">
 </p>
 
-*This was a final project developed in fulfillment of my Digital Signal Processing I course requirement in 2021.*
+*This is a final project developed in fulfillment of my Digital Signal Processing I course requirement in 2021.*
 
 ## Requirements
 
