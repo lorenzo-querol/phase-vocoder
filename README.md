@@ -11,7 +11,7 @@ Here's a block diagram to further illustrate the original phase vocoder algorith
   <img src="assets/block-diagram.png"  width="60%" height="30%">
 </p>
 
-This implementation involves a little bit of music theory, thus is limited to the use of semitone values to determine the jump (or shift) in pitch. To be more specific, it is limited to using the 12-Tone Equal Temperament (12-TET) system, thus a the frequency distance between two notes is defined to be the 12th root of 2.
+This implementation involves a little bit of music theory, thus is limited to the use of semitone values to determine the jump (or shift) in pitch. To be more specific, it is limited to using the 12-Tone Equal Temperament (12-TET) system, thus the frequency interval between two notes is defined to be the 12th root of 2.
 
 <p align="center">
   <img src="assets/12-tet-illustration.png"  width="60%" height="30%">
